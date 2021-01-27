@@ -20,8 +20,13 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
   },
   "browserslist": {
     "production": [
@@ -34,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "^2.2.1"
   }
 }
