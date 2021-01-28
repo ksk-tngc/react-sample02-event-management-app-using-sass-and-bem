@@ -1,0 +1,39 @@
+@import './global';
+
+.event-table {
+  @extend %table;
+
+  &__th {
+    @extend %table__th;
+
+    &--id {
+      width: 60px;
+    }
+    &--title {
+      width: 200px;
+    }
+    &--body {
+      width: 400px;
+    }
+    &--del-btn {
+      width: 80px;
+      text-align: center;
+    }
+  }
+
+  &__td {
+    @extend %table__td;
+
+    &--del-btn {
+      text-align: center;
+    }
+  }
+
+  &__btn {
+    @extend %table_btn;
+
+    &--danger {
+      @extend %__btn--danger;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import './global';
+
+.event-form {
+  &__form-item {
+    padding: 10px 0;
+  }
+
+  &__label {
+    padding: 4px 3px;
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    font-size: 0.9rem;
+  }
+
+  &__input {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid rgba(197, 197, 197, 0.719);
+    border-radius: 4px;
+    outline: none;
+
+    &:focus {
+      box-shadow: 0 0 2px 1px rgb(123, 165, 228);
+    }
+
+    &--textarea {
+      height: 50px;
+    }
+  }
+
+  &__btn-group {
+    padding: 15px 3px 0;
+  }
+
+  &__btn {
+    @extend %__btn;
+
+    &--danger {
+      @extend %__btn--danger;
+    }
+
+    &--disabled {
+      @extend %__btn--disabled;
+    }
+  }
+}

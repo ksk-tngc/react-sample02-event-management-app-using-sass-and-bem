@@ -1,0 +1,78 @@
+/*
+  Block横断で使用するスタイル
+*/
+
+/* ----------------------------- 変数 ----------------------------- */
+$base-font-color: rgb(59, 59, 59);
+$base-font-size: 0.9rem;
+
+$btn-normal-bg-color: rgb(98, 131, 163);
+$btn-danger-bg-color: rgba(202, 87, 106, 0.897);
+$btn-disabled-bg-color: rgba(112, 112, 112, 0.322);
+$btn-disabled-color: darkgray;
+
+$tbl-border-color: rgba(151, 173, 194, 0.24);
+$tbl-th-bg-color: rgba(160, 171, 184, 0.164);
+
+/* ----------------------------- ボタン ----------------------------- */
+%__btn {
+  margin-right: 3px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: $btn-normal-bg-color;
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: lighten($btn-normal-bg-color, 10);
+  }
+}
+
+%__small-btn {
+  @extend %__btn;
+  padding: 5px 9px;
+}
+
+%__btn--danger {
+  background-color: $btn-danger-bg-color;
+
+  &:hover {
+    background-color: lighten($btn-danger-bg-color, 10);
+  }
+}
+
+%__btn--disabled {
+  background-color: $btn-disabled-bg-color;
+  color: $btn-disabled-color;
+  cursor: default;
+
+  &:hover {
+    background-color: $btn-disabled-bg-color;
+  }
+}
+
+/* ----------------------------- テーブル ----------------------------- */
+%table {
+  margin-top: 20px;
+}
+
+%table__th {
+  padding: 6px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid $tbl-border-color;
+  background-color: $tbl-th-bg-color;
+}
+
+%table__td {
+  padding: 4px 6px;
+  border: 1px solid $tbl-border-color;
+  vertical-align: middle;
+  height: 26px;
+}
+
+%table_btn {
+  @extend %__small-btn;
+}
