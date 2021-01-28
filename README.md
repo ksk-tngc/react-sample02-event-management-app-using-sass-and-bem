@@ -1,4 +1,4 @@
-# my-react-event-management-app-using-sass-and-bem
+my-react-event-management-app-using-sass-and-bem
 
 # 概要
 
@@ -8,7 +8,7 @@
 
 # 実装
 
-- `Sass(SCSS)`+`BEM`でレイアウト作成
+- Sass(SCSS)+BEMでレイアウト作成
 - stateをLocalStorageで永続化
 - Reduxの`combineReducers`によりReducerを一元管理
 
