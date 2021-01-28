@@ -1,0 +1,20 @@
+@import './global';
+
+.operation-log-table {
+  @extend %table;
+
+  &__th {
+    @extend %table__th;
+
+    &--description {
+      width: 620px;
+    }
+    &--operated-at {
+      width: 150px;
+    }
+  }
+
+  &__td {
+    @extend %table__td;
+  }
+}

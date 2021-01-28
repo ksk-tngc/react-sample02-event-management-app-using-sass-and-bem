@@ -1,0 +1,12 @@
+@import './global';
+
+.section-wrapper {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__section {
+    margin-bottom: 20px;
+  }
+}
