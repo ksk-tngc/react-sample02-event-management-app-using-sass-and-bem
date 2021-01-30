@@ -4,11 +4,18 @@ my-react-event-management-app-using-sass-and-bem
 
 イベント情報を登録し一覧表示します。各オペレーション（イベント作成、削除等）のログも一覧表示します。
 
-# 実装
+# 使用API・パッケージ・他
 
-- Sass(SCSS)+BEMでレイアウト作成
-- stateをLocalStorageで永続化
-- Reduxの`combineReducers`によりReducerを一元管理
+- Hooks
+  - useState
+  - useEffect
+  - useReducer
+  - useContext
+
+- Redux
+  - combineReducers
+
+- Sass(SCSS) + BEM
 
 # レンダリング
 
@@ -37,15 +44,3 @@ my-react-event-management-app-using-sass-and-bem
 
 <img src="https://user-images.githubusercontent.com/59589496/106089101-9f2ebc80-616a-11eb-9012-bba796230c39.png" width="40%">
 
-# 使用API・パッケージ・他
-
-- Hooks
-  - useState
-  - useEffect
-  - useReducer
-  - useContext
-
-- Redux
-  - combineReducers
-
-- Sass(SCSS) + BEM
