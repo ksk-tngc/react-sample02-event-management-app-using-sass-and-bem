@@ -1,10 +1,9 @@
-my-react-event-management-app-using-sass-and-bem
+## 概要
 
-# 概要
+イベントの情報を登録し、一覧表示する簡単な React アプリケーションです。  
+各オペレーション（イベント作成、削除等）のログも一覧表示します。  
 
-イベント情報を登録し一覧表示します。各オペレーション（イベント作成、削除等）のログも一覧表示します。
-
-# 使用API・パッケージ・他
+## 使用API・パッケージ・他
 
 - Hooks
   - useState
@@ -17,7 +16,7 @@ my-react-event-management-app-using-sass-and-bem
 
 - Sass(SCSS) + BEM
 
-# レンダリング
+## レンダリング
 
 ### 初期表示
 ![image](https://user-images.githubusercontent.com/59589496/106088123-b10f6000-6168-11eb-9ce4-58bb737d4f35.png)
@@ -40,7 +39,7 @@ my-react-event-management-app-using-sass-and-bem
 ![image](https://user-images.githubusercontent.com/59589496/106088992-5d057b00-616a-11eb-87af-041870125590.png)
 
 
-# ファイル構成
+## フォルダ構成
 
 <img src="https://user-images.githubusercontent.com/59589496/106089101-9f2ebc80-616a-11eb-9012-bba796230c39.png" width="40%">
 
